@@ -5,7 +5,7 @@ Modified On: 22 ‎November ‎2020
 Purpose: Project  - Generate electricity for the village.
 */ 
 const Engine = Matter.Engine;
-const Render = Matter.Render;
+//const Render = Matter.Render;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
@@ -69,7 +69,7 @@ function setup() {
 
 	//	Engine.run(engine);
 	// create a renderer
-	var render = Render.create({
+	/*var render = Render.create({
 		element: document.body,
 		engine: engine,
 		options: {
@@ -79,7 +79,7 @@ function setup() {
 		}
 	  });
   // run the renderer
-	Render.run(render);
+	Render.run(render);*/
 }
 
 function draw() {
